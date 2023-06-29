@@ -1,0 +1,10 @@
+li.h2{
+    font-size: 1.9vmin;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 3vmin;
+}
+
+li {
+    margin-bottom: 1vmin;
+}

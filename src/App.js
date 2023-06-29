@@ -1,4 +1,10 @@
-import {useState} from react 
+import {useState} from "react"; 
+// import Student from './components/Student'
+import StudentList from './components/StudentList'
+import "./styles/App.css"
+
+
+function App() {
 
 const [students, setStudents] = useState(
     [
@@ -63,11 +69,12 @@ const [students, setStudents] = useState(
       ]
 )
 
-function App() {
-
 
     return (
+    <div className='App'>
         <h1 className="title">Students</h1>
+         <StudentList students={students} />
+         </div>
     )
 }
 
