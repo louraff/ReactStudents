@@ -5,6 +5,17 @@ li.h2{
     margin-top: 3vmin;
 }
 
+ul {
+    margin-bottom: 1vmin;
+    list-style-type: none;
+    width: 60vmin;
+}
+
 li {
     margin-bottom: 1vmin;
 }
+
+/* ul.StudentList {
+    width: 60vmin;
+    list-style-type: none;
+} */

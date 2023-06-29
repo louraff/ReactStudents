@@ -1,6 +1,6 @@
 import {useState} from "react"; 
 // import Student from './components/Student'
-import StudentList from './components/StudentList'
+import Student from './components/Student'
 import "./styles/App.css"
 
 
@@ -73,7 +73,7 @@ const [students, setStudents] = useState(
     return (
     <div className='App'>
         <h1 className="title">Students</h1>
-         <StudentList students={students} />
+         <Student students={students} />
          </div>
     )
 }
